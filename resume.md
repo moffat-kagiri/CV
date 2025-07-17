@@ -7,7 +7,7 @@
 | <a href="https://github.com/moffat-kagiri">GitHub</a>
 </p>
 
-  ---
+  
 ## Education </p>
 
 **University of East London** — *London, UK*  
@@ -18,7 +18,7 @@ Mar. 2022 – Present
 **Bachelor of Science in Actuarial Science**  
 Aug. 2017 – Nov. 2021
 
----
+
 
 ## Experience </p>
 
@@ -43,7 +43,7 @@ Sep 2022 – Apr 2025
 Jul 2023 – Aug 2023  
 - Interned at the brokerage to learn various investment banking operations including compliance to NSE and CMA regulations, investor relations, and securities trading.
 
----
+
 
 ## Projects </p>
 **Fedha Tracker App** | *Android (Java/Kotlin), Python, SQL, Google APIs, Git*  
@@ -67,7 +67,7 @@ Jul 2023 – Aug 2023
 - Implemented preliminary text extraction capabilities and laid the groundwork for future table extraction enhancements using advanced OCR techniques.  
 - Streamlined data ingestion, facilitating automated reporting and subsequent data analysis.
 
----
+
 
 ## Technical Skills </p>
 
