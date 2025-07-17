@@ -1,21 +1,7 @@
-<style>
-  .title {
-    text-align: center;
-    font-family: "Georgia", serif;
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  .body{
-    text-align: justify;
-    font-family:"Georgia", serif;
-    font-size: 12px;
-  }
-</style>
+<div style="text-align: center; font-family: Georgia, serif; font-size: 28px"> Moffat Kagiri Ngugi</div>
 
-<div class="title">Moffat Kagiri Ngugi</div>
+<div style = "text-align: justify; font-family: Georgia, serif; font-size: 12px">
 
-<div class="body">
 <p style="text-align: center;">
 📞 0740-294-373 | ✉️ kagirimoffat@outlook.com | <a href="https://www.linkedin.com/in/moffatkagiri/">LinkedIn</a>
 | <a href="https://github.com/moffat-kagiri">GitHub</a>
