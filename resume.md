@@ -1,4 +1,4 @@
-<div style="text-align: center; font-family: Georgia, serif; font-size: 28px"> Moffat Kagiri Ngugi</div>
+<div style="text-align: center; font-family: Georgia, serif; font-size: 28px"> # Moffat Kagiri Ngugi</div>
 
 <div style = "text-align: justify; font-family: Georgia, serif; font-size: 12px">
 
