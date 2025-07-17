@@ -8,7 +8,7 @@
 </p>
 
   ---
-## Education
+## <p style="font-size: 18px"> Education </p>
 
 **University of East London** — *London, UK*  
 **Master of Science in Data Science**  
@@ -20,7 +20,7 @@ Aug. 2017 – Nov. 2021
 
 ---
 
-## Experience
+## <p style="font-size: 18px"> Experience </p>
 
 **Liberty & Heritage Insurance** — *Nairobi, KE*  
 **Actuarial Graduate Trainee**  
@@ -45,7 +45,7 @@ Jul 2023 – Aug 2023
 
 ---
 
-## Projects
+## <p style="font-size: 18px"> Projects </p>
 **Fedha Tracker App** | *Android (Java/Kotlin), Python, SQL, Google APIs, Git*  
 **December 2024 – February 2025**  
 - Designed and developed an Android-based financial tracker app, aimed at empowering freelancers and SMEs with real-time expense tracking and financial optimization.  
@@ -69,7 +69,7 @@ Jul 2023 – Aug 2023
 
 ---
 
-## Technical Skills
+## <p style="font-size: 18px"> Technical Skills </p>
 
 **Languages**: Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R, Java  
 **Frameworks**: React, Flutter, Node.js, Flask, Material-UI, FastAPI, Django  
