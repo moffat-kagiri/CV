@@ -31,6 +31,16 @@ Apr 2025 – Present
 - Collaborated with cross-functional teams to integrate actuarial feedback into product design, marketing, and distribution strategy.  
 - Contributed to public-sector tender preparation through technical documentation, compliance analysis, and stakeholder engagement.
 
+**Gauss Analytics** — *Nairobi, KE*  
+**Founder & Lead Data Scientist**  
+Jan 2025 – Present  
+- Founded a data analytics and financial insight firm serving SMEs, NGOs, and professional service firms.  
+- Designed and implemented tiered analytics solutions: Foundational Analytics, Advanced Analytics & Architecture, and Embedded DSaaS (Data Science as a Service).  
+- Built custom data pipelines, automated reporting systems, and interactive dashboards to improve decision speed and financial visibility.  
+- Developed **Fedha**, an SME-focused financial app with tools for tax calculations, invoicing, and compliance.  
+- Secured initial client engagements in legal and social enterprise sectors, delivering measurable improvements in reporting efficiency and operational clarity.  
+- Driving strategic growth roadmap: pricing models, data governance frameworks, and regional expansion.
+
 **KCB Bank Kenya** — *Nanyuki, KE*  
 **Personal Banker**  
 Sep 2022 – Apr 2025  
