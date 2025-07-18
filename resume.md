@@ -3,7 +3,7 @@
 <div style = "text-align: justify; font-family: Georgia, serif; font-size: 12px">
 
 <p style="text-align: center;">
-📞 0740-294-373 | ✉️ kagirimoffat@outlook.com | <a href="https://www.linkedin.com/in/moffatkagiri/">LinkedIn</a>
+☎️ 0740-294-373 | ✉️ kagirimoffat@outlook.com | <a href="https://www.linkedin.com/in/moffatkagiri/">LinkedIn</a>
 | <a href="https://github.com/moffat-kagiri">GitHub</a>
 </p>
 
@@ -12,11 +12,11 @@
 
 **University of East London** — *London, UK*  
 **Master of Science in Data Science**  
-Mar. 2022 – Present
+In Progress
 
 **Daystar University** — *Nairobi, KE*  
 **Bachelor of Science in Actuarial Science**  
-Aug. 2017 – Nov. 2021
+2021
 
 
 
@@ -57,21 +57,21 @@ Jul 2023 – Aug 2023
 
 ## Projects </p>
 **Fedha Tracker App** | *Android (Java/Kotlin), Python, SQL, Google APIs, Git*  
-**December 2024 – February 2025**  
+**Jan 2025 – Jul 2025**  
 - Designed and developed an Android-based financial tracker app, aimed at empowering freelancers and SMEs with real-time expense tracking and financial optimization.  
 - Architected a user-friendly mobile application that integrates data analytics for automated budgeting, report generation, and actionable insights.  
 - Implemented iterative development processes, ensuring rapid prototyping and continuous improvement based on user feedback.  
 - Established a scalable foundation with a roadmap for a future B2B SaaS web platform, enhancing financial decision-making capabilities.
 
 **Predictive Analytics** | *Python, Random Forests, R, R Studio, R Markdown*  
-**March – October 2023**  
+**Mar – Oct 2023**  
 - Applied predictive analytics and machine learning techniques like logistic regression and random forests on an ecommerce website dataset to develop models for classifying user sessions as converting to sales or not.  
 - The analysis was aimed at improving the ecommerce site’s conversion rate.  
 - Implemented GitHub OAuth to get data from user’s repositories.  
 - Visualized GitHub data to show collaboration.
 
 **OCR Extraction Tool** | *Python, Tesseract OCR, pdf2image, OpenCV*  
-**March 2025 – Present**  
+**Feb 2025 – Jun 2025**  
 - Developed an OCR extraction tool using Python and Tesseract OCR to extract text from scanned documents, including secured statements with embedded tables.  
 - Set up a robust Conda environment to manage dependencies and improve reproducibility.  
 - Implemented preliminary text extraction capabilities and laid the groundwork for future table extraction enhancements using advanced OCR techniques.  
