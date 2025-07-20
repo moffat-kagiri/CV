@@ -19,4 +19,4 @@ Welcome! This repository contains my up-to-date resume in Markdown and PDF forma
 - [LinkedIn](https://linkedin.com/in/moffatkagiri/)
 - [GitHub](https://github.com/moffat-kagiri)
 
-> 💡 This resume is also available as a hosted site via GitHub Pages (if enabled).
+> 💡 This resume is also available as a hosted site via GitHub Pages.
