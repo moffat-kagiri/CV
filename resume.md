@@ -98,8 +98,8 @@ Actuarial analyst with a strong foundation in insurance risk, experience analysi
 
 ## Skills
 
-**Actuarial & Insurance Analysis:** Experience analysis (mortality, lapse, claims), loss ratio analysis, pricing and underwriting support, A/E analysis, portfolio monitoring, risk reporting
-**Financial & Commercial Analysis:** Portfolio mix and movement analysis, balance sheet awareness, performance-linked KPI analysis, public sector tender analysis
-**Data & Analytical Tools:** R, Python, SQL, Excel (Advanced), Power BI
-**Working Environment:** Cross-functional collaboration in regulated financial institutions, documentation and audit-ready reporting, Agile principles
+**Actuarial & Insurance Analysis:** Experience analysis (mortality, lapse, claims), loss ratio analysis, pricing and underwriting support, A/E analysis, portfolio monitoring, risk reporting  
+**Financial & Commercial Analysis:** Portfolio mix and movement analysis, balance sheet awareness, performance-linked KPI analysis, public sector tender analysis  
+**Data & Analytical Tools:** R, Python, SQL, Excel (Advanced), Power BI  
+**Working Environment:** Cross-functional collaboration in regulated financial institutions, documentation and audit-ready reporting, Agile principles  
 
