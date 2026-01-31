@@ -8,13 +8,10 @@ Actuarial analyst with a strong foundation in insurance risk, experience analysi
 
 ## Education
 
-**University of East London** — *London, UK*
-**Master of Science in Data Science**
-In Progress
+**Master of Science in Data Science** - In Progress | **University of East London** — *London, UK*
 
-**Daystar University** — *Nairobi, KE*
-**Bachelor of Science in Actuarial Science**
-2021
+**Bachelor of Science in Actuarial Science** - 2021 | **Daystar University** — *Nairobi, KE*
+
 
 ## Experience
 
@@ -58,8 +55,9 @@ In Progress
 - Implemented time-aware age calculations (last birthday convention) with exact date arithmetic and leap-year handling
 - Generated diagnostic outputs to validate exposure calculations and mortality assumptions
 
-* *Tools:* R (tidyverse, lubridate, demography)  
-* *References:* Bowers et al. — *Actuarial Mathematics*
+
+*Tools:* R (tidyverse, lubridate, demography)  
+*References:* Bowers et al. — *Actuarial Mathematics*  
 
 ### Medical Providers Panel – Spatial Coverage Analysis
 
@@ -69,9 +67,9 @@ In Progress
 - Implemented hierarchical geocoding logic with explicit confidence tiers (street-level, town centroid, failed) and data quality diagnostics
 - Generated county-level provider summaries and integrated modeled population data to compute **provider-to-population coverage ratios**
 - Automated population extraction using raster-based zonal statistics and administrative boundary normalization
-- Produced reproducible outputs including interactive maps, structured summaries, and coverage metrics for reporting and planning
+- Produced reproducible outputs including interactive maps, structured summaries, and coverage metrics for reporting and planning  
 
-* *Tools:* Python (pandas, geopandas, rasterio, folium), OpenStreetMap (Nominatim), WorldPop population data
+*Tools:* Python (pandas, geopandas, rasterio, folium), OpenStreetMap (Nominatim), WorldPop population data
 
 ### Fedha — Personal and SME Finance Tracker *(Ongoing)*
 
@@ -100,10 +98,10 @@ In Progress
 
 ## Technical Skills
 
-**Actuarial & Analytical:** Risk Analysis & Reporting, Statistical Modeling, Pricing Analysis, Loss Ratio Analysis, Predictive Modeling, Data Visualization
-**Languages:** Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R, Java
-**Frameworks:** React, Flutter, Node.js, Flask, Material-UI, FastAPI, Django
-**Developer Tools:** Git, Jupyter Notebooks, Docker, GCP, VS Code, PyCharm, IntelliJ, Eclipse
-**Libraries:** pandas, NumPy, Matplotlib, Scikit-learn, TensorFlow, OpenCV, Tesseract OCR
-**Databases:** PostgreSQL, SQLite, Firebase, Firestore
-**Other Tools:** Excel (Advanced), Power BI, Tableau, LaTeX
+**Actuarial & Analytical:** Risk Analysis & Reporting, Statistical Modeling, Pricing Analysis, Loss Ratio Analysis, Predictive Modeling, Data Visualization  
+**Languages:** Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R, Java  
+**Frameworks:** React, Flutter, Node.js, Flask, Material-UI, FastAPI, Django  
+**Developer Tools:** Git, Jupyter Notebooks, Docker, GCP, VS Code, PyCharm, IntelliJ, Eclipse  
+**Libraries:** pandas, NumPy, Matplotlib, Scikit-learn, TensorFlow, OpenCV, Tesseract OCR  
+**Databases:** PostgreSQL, SQLite, Firebase, Firestore  
+**Other Tools:** Excel (Advanced), Power BI, Tableau, LaTeX  
