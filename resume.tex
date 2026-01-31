@@ -1,53 +1,27 @@
-% !TEX program = xelatex
+% !TeX program = xelatex
 \documentclass[11pt,a4paper]{article}
+\usepackage{graphicx} % Required for inserting images
 \usepackage[margin=1in]{geometry}
-\usepackage{fontspec}
-\usepackage{hyperref}
 \usepackage{enumitem}
 \usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{setspace}
 \usepackage{parskip}
-\usepackage{xcolor}
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,      
-    urlcolor=blue,
-    pdftitle={Moffat Kagiri Ngugi - CV},
-}
-
-% Use Cambria when available; otherwise fall back to a TeX Live font.
-% (If you upload Cambria .ttf files into the project, you can switch back to Cambria.)
-\IfFontExistsTF{Cambria}{
-  \setmainfont{Cambria}
-}{
-  \setmainfont{TeX Gyre Termes}
-}
-
-% Section formatting
-\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
-% Extra space after section headings
-\titlespacing*{\section}{0pt}{\parskip}{0.6\baselineskip}
-
-% Itemize spacing
-\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=*}
+\usepackage{ragged2e}
 
 \begin{document}
 
-% Header
-\begin{center}
-    {\LARGE \textbf{Moffat Kagiri Ngugi}} \\[6pt]
-    \textbf{Phone:} 0740-294-373 \quad | \quad 
-    \textbf{Email:} \href{mailto:kagirimoffat@outlook.com}{kagirimoffat@outlook.com} \quad | \quad 
-    \textbf{LinkedIn:} \href{https://www.linkedin.com/in/moffatkagiri/}{linkedin.com/in/moffatkagiri/} \quad | \quad 
-    \textbf{GitHub:} \href{https://github.com/moffat-kagiri}{github.com/moffat-kagiri}
-\end{center}
+% Centered Name
 
-% Professional Summary
-\section*{Professional Summary}
-Actuarial analyst with a strong foundation in insurance risk, experience analysis, and portfolio monitoring, complemented by prior commercial banking and capital markets exposure. Experienced in translating actuarial and financial data into structured reporting that supports underwriting, pricing, risk governance, and investment decision-making. Brings a disciplined, cross-functional perspective shaped by performance-based roles in regulated financial institutions, with growing actuarial specialization across life and general insurance.
+\begin{center}
+\textbf{\huge{Moffat Kagiri Ngugi}} \\[0.8em]
+    0740-294-373 \quad | \quad  \href{mailto:kagirimoffat@outlook.com} {kagirimoffat@outlook.com} \quad | \quad\href{https://www.linkedin.com/in/moffatkagiri/}{LinkedIn} \quad | \quad \href{https://github.com/moffat-kagiri}{GitHub}
+    
+\end{center}
 
 % Education
 \section*{Education}
+\justifying
 \textbf{University of East London} — \textit{London, UK} \\
 \textbf{Master of Science in Data Science} —
 In Progress
@@ -151,4 +125,4 @@ In Progress
 \textbf{Databases:} PostgreSQL, SQLite, Firebase, Firestore \\
 \textbf{Other Tools:} Excel (Advanced), Power BI, Tableau, LaTeX
 
-\end{document>
+\end{document}
