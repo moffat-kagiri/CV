@@ -1,87 +1,147 @@
-% !TeX program = xelatex
+% !TEX program = xelatex
 \documentclass[11pt,a4paper]{article}
-\usepackage{graphicx} % Required for inserting images
 \usepackage[margin=1in]{geometry}
+\usepackage{fontspec}
+\usepackage{hyperref}
 \usepackage{enumitem}
 \usepackage{titlesec}
-\usepackage{hyperref}
-\usepackage{setspace}
 \usepackage{parskip}
-\usepackage{ragged2e}
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+    pdftitle={Moffat Kagiri Ngugi - CV},
+}
+
+% Use Cambria when available; otherwise fall back to a TeX Live font.
+% (If you upload Cambria .ttf files into the project, you can switch back to Cambria.)
+\IfFontExistsTF{Cambria}{
+  \setmainfont{Cambria}
+}{
+  \setmainfont{TeX Gyre Termes}
+}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+% Extra space after section headings
+\titlespacing*{\section}{0pt}{\parskip}{0.6\baselineskip}
+
+% Itemize spacing
+\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=*}
 
 \begin{document}
 
-% Centered Name
-
+% Header
 \begin{center}
-\textbf{\huge{Moffat Kagiri Ngugi}} \\[0.8em]
-    0740-294-373 \quad | \quad  \href{mailto:kagirimoffat@outlook.com} {kagirimoffat@outlook.com} \quad | \quad\href{https://www.linkedin.com/in/moffatkagiri/}{LinkedIn} \quad | \quad \href{https://github.com/moffat-kagiri}{GitHub}
-    
+    {\LARGE \textbf{Moffat Kagiri Ngugi}} \\[6pt]
+    \textbf{Phone:} 0740-294-373 \quad | \quad 
+    \textbf{Email:} \href{mailto:kagirimoffat@outlook.com}{kagirimoffat@outlook.com} \quad | \quad 
+    \textbf{LinkedIn:} \href{https://www.linkedin.com/in/moffatkagiri/}{linkedin.com/in/moffatkagiri/} \quad | \quad 
+    \textbf{GitHub:} \href{https://github.com/moffat-kagiri}{github.com/moffat-kagiri}
 \end{center}
 
+% Professional Summary
+\section*{Professional Summary}
+Actuarial analyst with a strong foundation in insurance risk, experience analysis, and portfolio monitoring, complemented by prior commercial banking and capital markets exposure. Experienced in translating actuarial and financial data into structured reporting that supports underwriting, pricing, risk governance, and investment decision-making. Brings a disciplined, cross-functional perspective shaped by performance-based roles in regulated financial institutions, with growing actuarial specialization across life and general insurance.
+
+% Education
 \section*{Education}
-\justifying
-\textbf{Society of Actuaries} \\
-\textit{Pathway to Associate of the Society of Actuaries} \hfill In progress
+\textbf{University of East London} — \textit{London, UK} \\
+\textbf{Master of Science in Data Science} —
+In Progress
 
-\textbf{University of East London} — London, UK \\
-\textit{Master of Science in Data Science} \hfill In progress
+\vspace{0.5\baselineskip}
+\textbf{Daystar University} — \textit{Nairobi, KE} \\
+\textbf{Bachelor of Science in Actuarial Science} — 2021
 
-\textbf{Daystar University} — Nairobi, KE \\
-\textit{Bachelor of Science in Actuarial Science} \hfill 2021
-
-
+% Experience
 \section*{Experience}
-\textbf{Liberty \& Heritage Insurance} — Nairobi, KE \\
-\textit{Actuarial Graduate Trainee} \hfill Apr 2025 – Present
-\begin{itemize}[leftmargin=*]
-    \item Developed interactive dashboards (Power BI, Excel) for business acquisition tracking, improving decision-making across sales, operations (pensions, underwriting, claims), and risk \& compliance teams.
-    \item Conducted data-driven policy analysis and automated renewal workflows using actuarial principles and claims experience metrics.
-    \item Applied statistical insights and loss ratio analysis to support underwriting decisions and pricing strategy.
-    \item Collaborated with cross-functional teams to integrate actuarial feedback into product design, marketing, and distribution strategy.
-    \item Contributed to the preparation of public sector tenders through technical documentation, compliance analysis, and stakeholder engagement.
+\textbf{Liberty \& Heritage Insurance — Nairobi, KE} \\
+\textit{Actuarial Graduate Trainee — April 2025 – Present}
+\begin{itemize}
+    \item Conduct lapse, portfolio, and experience analysis to support risk monitoring, underwriting review, and pricing discussions across general and life businesses
+    \item Developed a structured lapse analysis reporting framework for the Risk \& Compliance function, simplifying the monthly risk reporting cycle and reducing reliance on fragmented Excel packs
+    \item Support actuarial reporting and analysis in line with internal risk governance and regulatory reporting requirements across underwriting, finance, and compliance functions
+    \item Support portfolio mix and movement analysis in collaboration with the Investments and Finance teams, contributing to improved visibility over asset and liability dynamics
+    \item Apply claims experience metrics and loss ratio analysis to inform underwriting decisions and renewal reviews
+    \item Work directly with underwriters, actuaries, business development, and finance managers to translate actuarial insights into operational and commercial decision-making
+    \item Contribute to public sector tender preparation through experience analysis, technical documentation, compliance review, and internal stakeholder coordination
 \end{itemize}
 
-\textbf{KCB Bank Kenya} — Nanyuki, KE \\
-\textit{Personal Banker} \hfill Sep 2022 – Apr 2025
-\begin{itemize}[leftmargin=*]
-    \item Analysed customer transaction data and identified high value clients, increasing my sales conversion rates.
-    \item Developed automated dashboards in Excel to track portfolio growth, improving the efficiency of lead targeting.
-    \item Utilized SQL to extract insights from banking databases, supporting strategy in retail loan products.
+\textbf{KCB Bank Kenya — Nanyuki, KE} \\
+\textit{Personal Banker — September 2022 – April 2025}
+\begin{itemize}
+    \item Operated under a performance-based contract with compensation tied to disbursed loans, deposit retention, active transactional accounts, and digital channel usage
+    \item Analysed loan progress and customer transaction reports to identify high-performing individuals and schemes, supporting targeted loan origination and portfolio growth
+    \item Drove adoption of mobile and digital banking channels across transactional and current accounts, supporting channel migration and reducing in-branch transaction volumes
+    \item Designed and executed monthly SMS reactivation campaigns targeting dormant accounts, improving account activity, customer persistence, and fee-based income
+    \item Maintained consistently high productivity across monthly performance cycles, with digital banking connections accounting for a significant share of individual output
 \end{itemize}
 
-\textbf{KCB Investment Bank} — Nairobi, KE \\
-\textit{Trading Intern} \hfill Jul 2023 – Aug 2023
-\begin{itemize}[leftmargin=*]
-    \item Interned at the brokerage to learn various investment banking operations including compliance to NSE and CMA regulations, investor relations, and securities trading.
+\textbf{KCB Investment Bank — Nairobi, KE} \\
+\textit{Investment Banking Operations Training (Secondment)}
+\begin{itemize}
+    \item Completed structured exposure to investment banking operations, including securities processing, reconciliations, settlements, and client reporting
+    \item Supported delivery of capital markets products to retail and SME clients through the branch network, including equity brokerage, Treasury bills and bonds
+    \item Gained working understanding of money market fund operations, statement processing, and investment servicing workflows
+    \item Strengthened practical knowledge of regulated financial instruments and end-to-end investment product lifecycles
 \end{itemize}
 
-\newpage
-
+% Projects
 \section*{Projects}
-\textbf{Fedha Personal Finance App} — Android (Java/Kotlin), Python, SQL, Google APIs, Git \\
-\textit{Jan 2025 – Jul 2025}
-\begin{itemize}[leftmargin=*]
-    \item Architected an Android-based app, aimed at empowering people and MSMEs with real-time expense tracking and financial planning
-    \item Designed and developed a user-friendly mobile application that integrates data analytics for automated tracking, statement generation, investment appraisal, loan amortization, and actionable insights
-    \item Implemented iterative development processes, ensuring rapid prototyping and continuous improvement based on user feedback
-    \item Established a scalable foundation with a roadmap for a future B2B SaaS web platform, enhancing financial decision-making capabilities
+\subsection*{Mortality Investigation Project}
+\textit{Actuarial Science | R}
+\begin{itemize}
+    \item Conducted an end-to-end mortality investigation using policyholder-level data to estimate crude and graduated mortality rates
+    \item Calculated central exposed-to-risk using both \textbf{exact individual exposure} and \textbf{census approximation} methods, enabling comparison of methodological impacts
+    \item Performed actual vs expected mortality analysis and estimated force of mortality by age
+    \item Implemented time-aware age calculations (last birthday convention) with exact date arithmetic and leap-year handling
+    \item Generated diagnostic outputs to validate exposure calculations and mortality assumptions
+\end{itemize}
+\textit{Tools:} R (tidyverse, lubridate, demography) \\
+\textit{References:} Bowers et al. — \textit{Actuarial Mathematics}
+
+\subsection*{Medical Providers Panel – Spatial Coverage Analysis}
+\textit{Health Analytics | Python \& Geospatial Analysis}
+\begin{itemize}
+    \item Designed a spatial analytics pipeline to clean, geocode, and analyze a national medical providers panel in Kenya
+    \item Implemented hierarchical geocoding logic with explicit confidence tiers (street-level, town centroid, failed) and data quality diagnostics
+    \item Generated county-level provider summaries and integrated modeled population data to compute \textbf{provider-to-population coverage ratios}
+    \item Automated population extraction using raster-based zonal statistics and administrative boundary normalization
+    \item Produced reproducible outputs including interactive maps, structured summaries, and coverage metrics for reporting and planning
+\end{itemize}
+\textit{Tools:} Python (pandas, geopandas, rasterio, folium), OpenStreetMap (Nominatim), WorldPop population data
+
+\subsection*{Fedha — Personal and SME Finance Tracker (Ongoing)}
+\textit{Applied Analytics \& Product Development}
+\begin{itemize}
+    \item Developing an SME-focused financial insights platform providing tools for tax estimation, invoicing, and compliance support
+    \item Translating small business financial data into structured summaries to improve cashflow visibility and decision-making
+    \item Designing data models and reporting logic aligned with regulatory and compliance requirements for SMEs
+    \item Iteratively refining backend architecture with a focus on reliability, auditability, and future scalability
 \end{itemize}
 
-\textbf{Predictive Analytics} — Python, Random Forests, R, R Studio, R Markdown \\
-\textit{Mar – Oct 2023}
-\begin{itemize}[leftmargin=*]
-    \item Applied predictive analytics and ML (logistic regression, random forests) on ecommerce data to predict sales conversion.
-    \item Integrated GitHub OAuth and visualized team collaboration data.
+% Certifications & Professional Development
+\section*{Certifications \& Professional Development}
+\textbf{Professional Certifications}
+\begin{itemize}
+    \item \textbf{Financial Modeling \& Valuation Analyst (FMVA)} — Corporate Finance Institute (CFI)
 \end{itemize}
 
-\textbf{OCR Extraction Tool} — Python, Tesseract OCR, pdf2image, OpenCV \\
-\textit{Feb 2025 – June 2025}
-\begin{itemize}[leftmargin=*]
-    \item Built a tool to extract text from scanned documents including secure PDFs with tables.
-    \item Created a reproducible Conda environment and automated reporting pipelines.
+\textbf{Professional Standing}
+\begin{itemize}
+    \item \textbf{Affiliate Member}, Society of Actuaries (SOA)
+    \item \textbf{Working toward Associate of the Society of Actuaries (ASA) designation}
 \end{itemize}
 
+\textbf{Additional Training}
+\begin{itemize}
+    \item \textbf{Agile Principles \& Methodologies Certification} — KCB Bank Kenya
+\end{itemize}
+
+% Technical Skills
 \section*{Technical Skills}
 \textbf{Actuarial \& Analytical:} Risk Analysis \& Reporting, Statistical Modeling, Pricing Analysis, Loss Ratio Analysis, Predictive Modeling, Data Visualization \\
 \textbf{Languages:} Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R, Java \\
@@ -90,4 +150,5 @@
 \textbf{Libraries:} pandas, NumPy, Matplotlib, Scikit-learn, TensorFlow, OpenCV, Tesseract OCR \\
 \textbf{Databases:} PostgreSQL, SQLite, Firebase, Firestore \\
 \textbf{Other Tools:} Excel (Advanced), Power BI, Tableau, LaTeX
-\end{document}
+
+\end{document>
