@@ -96,12 +96,10 @@ Actuarial analyst with a strong foundation in insurance risk, experience analysi
 
 * **Agile Principles & Methodologies Certification** — KCB Bank Kenya
 
-## Technical Skills
+## Skills
 
-**Actuarial & Analytical:** Risk Analysis & Reporting, Statistical Modeling, Pricing Analysis, Loss Ratio Analysis, Predictive Modeling, Data Visualization  
-**Languages:** Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R, Java  
-**Frameworks:** React, Flutter, Node.js, Flask, Material-UI, FastAPI, Django  
-**Developer Tools:** Git, Jupyter Notebooks, Docker, GCP, VS Code, PyCharm, IntelliJ, Eclipse  
-**Libraries:** pandas, NumPy, Matplotlib, Scikit-learn, TensorFlow, OpenCV, Tesseract OCR  
-**Databases:** PostgreSQL, SQLite, Firebase, Firestore  
-**Other Tools:** Excel (Advanced), Power BI, Tableau, LaTeX  
+**Actuarial & Insurance Analysis:** Experience analysis (mortality, lapse, claims), loss ratio analysis, pricing and underwriting support, A/E analysis, portfolio monitoring, risk reporting
+**Financial & Commercial Analysis:** Portfolio mix and movement analysis, balance sheet awareness, performance-linked KPI analysis, public sector tender analysis
+**Data & Analytical Tools:** R, Python, SQL, Excel (Advanced), Power BI
+**Working Environment:** Cross-functional collaboration in regulated financial institutions, documentation and audit-ready reporting, Agile principles
+
